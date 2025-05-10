@@ -1,0 +1,12 @@
+.footer {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer span {
+  &:first-child {
+    font-weight: 600;
+  }
+}
