@@ -1,0 +1,14 @@
+.footer {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--primary-bg);
+  border-top: 2px solid var(--secondary-bg);
+}
+
+.footer span {
+  &:first-child {
+    font-weight: 600;
+  }
+}

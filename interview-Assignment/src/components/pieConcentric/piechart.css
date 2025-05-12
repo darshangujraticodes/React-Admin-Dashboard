@@ -1,0 +1,66 @@
+.expenses-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.boxTitle {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.upperTitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.expenses-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chart-container {
+  position: relative;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-label {
+  position: absolute;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.legend {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.legend-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 4px 0;
+}
+
+.legend-item p {
+  margin-bottom: 10px;
+}
+
+.color-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.pieChartAmount {
+  font-size: 20px;
+  font-weight: 600;
+}

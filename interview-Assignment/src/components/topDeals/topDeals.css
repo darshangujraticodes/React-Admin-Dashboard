@@ -1,0 +1,52 @@
+.topDealsBox {
+  h2 {
+    margin-bottom: 20px;
+  }
+
+  .dealsListWrap {
+    .listItem {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      /* margin-bottom: 15px; */
+      padding: 8px;
+      border-radius: 10px;
+
+      .user {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+
+        .userImg {
+          width: 40px;
+          height: 40px;
+          object-fit: cover;
+          border-radius: 50%;
+        }
+
+        .userInfoText {
+          display: flex;
+          flex-direction: column;
+
+          .userName {
+            font-size: 14px;
+            font-weight: 500;
+          }
+
+          .userEmail {
+            font-size: 12px;
+          }
+        }
+      }
+
+      .amount {
+        font-weight: 600;
+      }
+
+      &:hover {
+        background-color: var(--soft-bg);
+      }
+    }
+  }
+}

@@ -1,0 +1,94 @@
+.doctorListWrap {
+  padding: 20px;
+  background-color: white;
+  margin-top: 15px;
+  border-radius: 10px;
+
+  .boxTitle {
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+  .doctorTitleWrap {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .listFilterWrap {
+    display: flex;
+    gap: 10px;
+  }
+
+  .doctorTables {
+    width: 100%;
+    margin-top: 30px;
+    /* display: none; */
+
+    img.doctorImg {
+      width: 30px;
+      height: 30px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    thead {
+      height: 50px;
+      text-align: left;
+    }
+
+    .docNameWrap {
+      display: flex;
+      align-items: center;
+    }
+
+    .doctorName {
+      font-size: 20px;
+      font-weight: 600;
+      margin-left: 15px;
+    }
+
+    tr.tableRow {
+      height: 50px;
+    }
+
+    .nameWidth {
+      width: 265px;
+    }
+
+    .emailWidth {
+      width: 265px;
+    }
+
+    .statusWidth {
+      width: 150px;
+      margin-right: 20px;
+    }
+
+    .activeTab {
+      width: 105px;
+      background-color: #e4fcf3;
+      text-align: center;
+      padding: 5px;
+      text-transform: capitalize;
+      border-radius: 50px;
+      border: 1px solid limegreen;
+      color: limegreen;
+    }
+
+    .inActiveTab {
+      width: 105px;
+      background-color: #fce4e4;
+      text-align: center;
+      padding: 5px;
+      text-transform: capitalize;
+      border-radius: 50px;
+      border: 1px solid red;
+      color: red;
+    }
+
+    .tableAction {
+      width: 20px;
+      height: auto;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.menu {
+  background-color: var(--secondary-bg);
+
+  .logoWrap {
+    padding-bottom: 5px;
+    border-bottom: 2px solid var(--primary-bg);
+  }
+
+  .logo {
+    width: 165px;
+    height: auto;
+  }
+}

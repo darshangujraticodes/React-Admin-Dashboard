@@ -1,0 +1,160 @@
+.navbar {
+  width: 100%;
+  padding: 0px 20px;
+  display: flex;
+  background-color: var(--primary-bg);
+}
+
+.navbar .logo span,
+.navbar .user span {
+  margin-left: 10px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.navbar .icons {
+  gap: 20px;
+  border-bottom: 2px solid var(--secondary-bg);
+}
+
+.navbar .icons,
+.navbar .logo,
+.navbar .user {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .user img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.notification {
+  position: relative;
+}
+
+.notification span {
+  position: absolute;
+  top: -12px;
+  right: -14px;
+  font-size: 13px;
+  line-height: 17px;
+  font-weight: 600;
+  background: red;
+  color: #fff;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoWrap {
+  border-right: 2px solid var(--secondary-bg);
+}
+
+.logoImg {
+  width: 200px;
+  height: auto;
+  /* padding-right: 20px; */
+  margin-right: 78px;
+}
+
+.navbarMenu {
+  padding: 12px 15px;
+  width: 100%;
+  border-bottom: 2px solid var(--secondary-bg);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.searchWrap {
+  position: relative;
+}
+
+.navSearch {
+  background-color: white;
+  font-size: 20px;
+  line-height: 25px;
+  padding: 5px 5px 5px 43px;
+  border-radius: 10px;
+  border: 2px solid var(--secondary-bg);
+}
+
+.searchIcon {
+  position: absolute;
+  top: 10px;
+  left: 14px;
+  width: 20px;
+  height: 20px;
+}
+
+.navSettingWrap {
+  display: flex;
+  align-items: center;
+
+  .leftMenuSetting {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-right: 2px solid var(--secondary-bg);
+    padding-right: 10px;
+  }
+
+  .rightMenuSetting {
+    padding-left: 10px;
+  }
+
+  .profileImg {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .profileDataWrap {
+    display: flex;
+    align-items: center;
+  }
+
+  .profileInfo {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+  }
+
+  .profileStatus {
+    font-size: 12px;
+    margin-top: 3px;
+    display: flex;
+    align-items: center;
+  }
+
+  .onlineStatus {
+    margin-left: 5px;
+    width: 10px;
+    height: 10px;
+    background-color: limegreen;
+    border-radius: 50%;
+    display: inline-block;
+  }
+}
+
+.navIconWrap {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid var(--secondary-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navIcon {
+  width: 20px;
+  height: 20px;
+}

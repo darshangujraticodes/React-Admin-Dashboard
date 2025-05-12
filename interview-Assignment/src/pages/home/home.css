@@ -1,0 +1,128 @@
+.home {
+  padding: 15px;
+
+  .pageTitle {
+    font-size: 35px;
+    font-weight: 500;
+  }
+
+  .boxGrapWrap {
+    display: flex;
+    margin-top: 15px;
+    gap: 10px;
+  }
+
+  .graphBox {
+    width: 25%;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+
+    .leftGraphBoxContent {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .rightGraphBoxContent {
+      flex: 1;
+
+      .moreMenuIconWrap {
+        display: flex;
+        justify-content: flex-end;
+      }
+    }
+  }
+
+  .graphBoxTitle {
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 10px;
+  }
+
+  .graphBoxVal {
+    display: flex;
+    align-items: center;
+  }
+
+  .graphValue {
+    font-size: 33px;
+    font-weight: 600;
+  }
+
+  .graphPercentVal {
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 20px;
+      height: 20px;
+      padding-left: 5px;
+    }
+  }
+
+  .graphChartWrap {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .moreMenuIcon {
+    width: 25px;
+    height: auto;
+  }
+
+  /* second graph sections */
+
+  .secondGraphSection {
+    margin-top: 15px;
+  }
+
+  .cashflowSection {
+    width: 65%;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+
+    .upperTitle {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 15px;
+
+      .boxTitle {
+        font-size: 25px;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .expenseSection {
+    width: 35%;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .greenCircleDot {
+    width: 15px;
+    height: 15px;
+    background-color: #6fc2a0;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+
+  .cashflowValue {
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 5px;
+  }
+
+  .cashflowGraphWrap {
+    padding-top: 20px;
+  }
+}

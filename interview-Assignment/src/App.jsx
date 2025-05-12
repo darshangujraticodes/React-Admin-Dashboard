@@ -1,7 +1,7 @@
-import Footer from "./components/footer/Footer";
+import { Link, NavLink, Outlet } from "react-router";
 import Menu from "./components/menu/Menu";
 import Navbar from "./components/navbar/Navbar";
-import { Outlet } from "react-router-dom";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
